@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Susan Okoroafor</title>
+    <link rel="stylesheet" href="./assets/loading.css">
+    <link rel="stylesheet" href="./assets/projects.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="loader"> <!--https://blog.hubspot.com/website/css-loading-animation-->
+        <div class="ring">Loading<span></span></div>
+        </div> <!--https://redstapler.co/add-loading-animation-to-website/-->
+        <!--https://www.divinectorweb.com/2021/08/how-to-add-preloader-in-website.html-->
+        <script> 
+            setTimeout(function(){
+                $('.loader').fadeToggle();
+            }, 1500);
+            </script>
+    <section class="main-container">
+        <div class="bg-image">
+            <a href="./index.html">&lt-back</a>
+            <div class="projects-container">
+                <i class="fa-solid fa-diagram-project"></i>
+                <h1>//Projects</h1>
+                <div class="projects">
+                    <!--First Row-->
+                    <div class="projects-row">
+                        <a class ="linkbox" href="https://github.com/Susnfor/mypythonprojects/tree/master/ToDoList">
+                            <div class="project pythonproj" id="todolist">
+                                <p>To do List</p>
+                            </div>
+                        </a>
+                        <a class ="linkbox" href="#">
+                            <div class="project jsproj" id="emailsim">
+                                <p>Email Simulator</p>
+                            </div>
+                        </a>
+                    </div>
+                    <!--Row-->
+                    <div class="projects-row">
+                        <a class ="linkbox" href="#">
+                            <div class="project jsproj" id="tempconverter">
+                                <p>Temperature Converter</p>
+                            </div>
+                        </a>
+                        <a class ="linkbox" href="#">
+                            <div class="project jsproj" id="palicheck">
+                                <p>Palidrome Checker</p>
+                            </div>
+                        </a>
+                    </div>
+                    <!--First Row-->
+                    <div class="projects-row">
+                        <a class ="linkbox" href="#">
+                            <div class="project htmlproj" id="todolist">
+                                <p>Anki Design Generator</p>
+                            </div>
+                        </a>
+                        <a class ="linkbox" href="#">
+                            <div class="project jsproj" id="emailsim">
+                                <p>Pomodoro Timer</p>
+                            </div>
+                        </a>
+                    </div>
+                    <!--Row-->
+                    <div class="projects-row">
+                        <a class ="linkbox" href="#">
+                            <div class="project pythonproj" id="tempconverter">
+                                <p>Download Sorter Automation</p>
+                            </div>
+                        </a>
+                        <a class ="linkbox" href="#">
+                            <div class="project jsproj" id="palicheck">
+                                <p>Palidrome Checker</p>
+                            </div>
+                        </a>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    
+</body>
+</html>

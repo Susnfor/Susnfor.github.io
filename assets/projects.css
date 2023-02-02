@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    margin: 0;
+    font-family: 'Space Mono', monospace;
+    font-size: 17px;
+    color: #ffffff;
+    line-height: 1.6;
+    text-shadow: 2px 2px #7f7f7f;
+  }
+h1{
+    font-size: 8vh;
+}
+.bg-image {
+    background-image: url("./bg2.png");
+    background-color: #262626;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index:-1;
+    height: 100%;
+
+    }
+
+a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:active {
+    text-decoration: none;
+}
+.projects-container{
+    text-align: center;
+    /* border: 0.4vh solid black; */
+}
+
+.projects-row{
+    display: flex;
+    /* border: 0.3vh solid rgb(240, 0, 0); */
+    flex-flow: row wrap;
+    column-gap: 10vh;
+    row-gap: 5vh;
+    padding-bottom: 5vh;
+    justify-content: center;
+    /* padding-bottom: 1vh; */
+
+}
+
+.project{
+    border: 0.1vh solid black;
+    font-size: 3vh;
+    width:45vh;
+    height: 30vh;
+    background-color: lightblue;
+    border-radius: 25px;
+}
+.pythonproj{
+    background-image: url(./pythonbg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.htmlproj{
+    background-image: url(./htmlbg.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.jsproj{
+    background-image: url(./jsbg.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.fa-diagram-project{
+    font-size: 8vh;
+}
