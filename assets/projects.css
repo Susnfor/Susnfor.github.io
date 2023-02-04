@@ -63,6 +63,8 @@ a:active {
     height: 30vh;
     background-color: lightblue;
     border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+  rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 }
 .pythonproj{
     background-image: url(./pythonbg.jpg);
@@ -85,4 +87,10 @@ a:active {
 
 .fa-diagram-project{
     font-size: 8vh;
+}
+.linkbox{
+    transition: 0.3s;
+}
+.linkbox:hover{
+    transform: scale(1.1);
 }

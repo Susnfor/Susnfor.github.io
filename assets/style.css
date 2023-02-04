@@ -53,12 +53,16 @@ body, html {
 }
 
 .button {
+    display:flex;
+    flex: 1;
+    justify-content: center;
+    column-gap: 3rem;
     text-decoration: none;
     font-size: 30px;
     color: #ffffff;
     text-align: center;
     padding-top: 30px;
-    word-spacing: 100px;
+    /* word-spacing: 100px; */
 }
 
 a:link {
