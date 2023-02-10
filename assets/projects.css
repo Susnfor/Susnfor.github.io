@@ -57,7 +57,7 @@ a:active {
 }
 
 .project{
-    border: 0.1vh solid black;
+    /* border: 0.1vh solid black; */
     font-size: 3vh;
     width:45vh;
     height: 30vh;
@@ -66,6 +66,7 @@ a:active {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
   rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 }
+
 .pythonproj{
     background-image: url(./pythonbg.jpg);
     background-repeat: no-repeat;
@@ -88,9 +89,66 @@ a:active {
 .fa-diagram-project{
     font-size: 8vh;
 }
-.linkbox{
+.project{
     transition: 0.3s;
 }
-.linkbox:hover{
+.project:hover{
     transform: scale(1.1);
+    background-image:url(./grunge.jpg) ;
+
+}
+
+.tags-container {
+    width: 45vh;
+    font-size: 20px;
+    /* border: 0.1vh solid red; */
+    padding-left: 10px;
+    position: absolute;
+}
+
+.tags{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    column-gap: 15px;
+    padding-top:200px;
+}
+
+.python-tags p{
+    border-radius: 5px;
+    padding: 0px 5px;
+    background-color:rgba(87, 164, 228, 0.541);
+}
+.react-tags p{
+    border-radius: 5px;
+    padding: 0px 5px;
+    background-color:rgba(228, 87, 209, 0.541);
+}
+.js-tags p{
+    border-radius: 5px;
+    padding: 0px 5px;
+    background-color:rgba(255, 185, 79, 0.541);
+}
+.html-tags p{
+    border-radius: 5px;
+    padding: 0px 5px;
+    background-color:rgba(228, 87, 87, 0.541);
+}
+.css-tags p{
+    border-radius: 5px;
+    padding: 0px 5px;
+    background-color:rgba(228, 87, 87, 0.541);
+}
+.desc{
+    opacity: 0;
+    height: 90%;
+    transition: 0.3s;
+    /* border: 0.1vh solid greenyellow; */
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+
+}
+.desc:hover{
+    opacity: 1;
 }
