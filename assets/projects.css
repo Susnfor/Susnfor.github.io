@@ -61,7 +61,7 @@ a:active {
     font-size: 3vh;
     width:45vh;
     height: 30vh;
-    background-color: lightblue;
+    /* background-color: lightblue; */
     border-radius: 25px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
   rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
@@ -111,7 +111,7 @@ a:active {
     flex-direction: row;
     align-items: flex-start;
     column-gap: 15px;
-    padding-top:200px;
+    padding-top:20vh;
 }
 
 .python-tags p{
@@ -141,7 +141,7 @@ a:active {
 }
 .desc{
     opacity: 0;
-    height: 90%;
+    height: 60%;
     transition: 0.3s;
     /* border: 0.1vh solid greenyellow; */
     font-size: 20px;
@@ -151,4 +151,13 @@ a:active {
 }
 .desc:hover{
     opacity: 1;
+}
+
+@media only screen and (max-width: 700px){
+    .tags{
+        padding-top: 18vh;
+    }
+    .desc{
+        font-size: 15px;
+    }
 }
