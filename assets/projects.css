@@ -139,6 +139,11 @@ a:active {
     padding: 0px 5px;
     background-color:rgba(228, 87, 87, 0.541);
 }
+.api-tags p{
+    border-radius: 5px;
+    padding: 0px 5px;
+    background-color:rgba(87, 120, 228, 0.541);
+}
 .desc{
     opacity: 0;
     height: 60%;
@@ -160,4 +165,49 @@ a:active {
     .desc{
         font-size: 12px;
     }
+}
+
+#gibberish{
+    background-image: url(./gibberishMock.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#gibberish:hover{
+    background-image:url(./grunge.jpg);
+}
+
+#ignition{
+    background-image: url(./ignitionMock.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#ignition:hover{
+    background-image:url(./grunge.jpg);
+}
+
+#aboutmequiz{
+    background-image: url(./aboutmeMock.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#aboutmequiz:hover{
+    background-image:url(./grunge.jpg);
+}
+
+#pomodoro{
+    background-image: url(./pomodoroMock.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#pomodoro:hover{
+    background-image:url(./grunge.jpg);
+}
+
+#mcwiki{
+    background-image: url(./mc-wiki.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#mcwiki:hover{
+    background-image:url(./grunge.jpg);
 }
