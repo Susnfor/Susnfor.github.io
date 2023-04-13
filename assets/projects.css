@@ -220,3 +220,21 @@ a:active {
 #neonport:hover{
     background-image:url(./grunge.jpg);
 }
+
+#airfoodie{
+    background-image: url(./recipeMock.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#airfoodie:hover{
+    background-image:url(./grunge.jpg);
+}
+
+#aboutcard{
+    background-image: url(./cardMock.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#aboutcard:hover{
+    background-image:url(./grunge.jpg);
+}
