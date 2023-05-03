@@ -238,3 +238,21 @@ a:active {
 #aboutcard:hover{
     background-image:url(./grunge.jpg);
 }
+
+#remindme{
+    background-image: url(./remindMock.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#remindme:hover{
+    background-image:url(./grunge.jpg);
+}
+
+#mentalbeing{
+    background-image: url(./mentalMock.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#mentalbeing:hover{
+    background-image:url(./grunge.jpg);
+}
