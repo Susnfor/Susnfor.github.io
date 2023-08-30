@@ -102,7 +102,6 @@ a:active {
     font-size: 20px;
     width:45vh;
     height: 24vh;
-    border: 0.1vh solid red;
     position: absolute;
     display: flex;
     flex-direction: row;
@@ -110,7 +109,6 @@ a:active {
 }
 
 .tags{
-    border: 0.1vh solid greenyellow;
     display: flex;
     align-items: flex-end;
     flex-wrap: wrap;
