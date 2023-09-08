@@ -264,3 +264,21 @@ a:active {
 #mentalbeing:hover{
     background-image:url(./grunge.jpg);
 }
+
+#budgetapp{
+    background-image: url(./budgetMock.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#budgetapp:hover{
+    background-image:url(./grunge.jpg);
+}
+
+#workoutapp{
+    background-image: url(./workoutMock.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#workoutapp:hover{
+    background-image:url(./grunge.jpg);
+}
