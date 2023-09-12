@@ -57,46 +57,41 @@ a:active {
 }
 
 .project{
-    /* border: 0.1vh solid black; */
     font-size: 3vh;
     width:45vh;
     height: 30vh;
-    /* background-color: lightblue; */
     border-radius: 25px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
-  rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
-}
-
-.pythonproj{
-    background-image: url(./pythonbg.jpg);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-}
-
-.htmlproj{
-    background-image: url(./htmlbg.jpeg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-
-}
-
-.jsproj{
-    background-image: url(./jsbg.webp);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
-.fa-diagram-project{
-    font-size: 8vh;
-}
-.project{
     transition: 0.3s;
+    
 }
 .project:hover{
     transform: scale(1.1);
     background-image:url(./grunge.jpg) ;
 
 }
+
+.pythonproj{
+    background-image: url(./pythonbg.jpg);
+}
+
+.htmlproj{
+    background-image: url(./htmlbg.jpeg);
+
+}
+
+.jsproj{
+    background-image: url(./jsbg.webp);
+
+}
+
+
+.fa-diagram-project{
+    font-size: 8vh;
+}
+
 
 .tags-container {
     font-size: 20px;
@@ -116,47 +111,36 @@ a:active {
     column-gap: 10px;
     padding-top:14vh;
 }
-
-.python-tags p{
+.tags p{
     border-radius: 5px;
     padding: 0px 5px;
+}
+
+.python-tags p{
     background-color:rgba(87, 164, 228, 0.541);
 }
 .react-tags p{
-    border-radius: 5px;
-    padding: 0px 5px;
     background-color:rgba(228, 87, 209, 0.541);
 }
 .js-tags p{
-    border-radius: 5px;
-    padding: 0px 5px;
     background-color:rgba(255, 185, 79, 0.541);
 }
 .html-tags p{
-    border-radius: 5px;
-    padding: 0px 5px;
-    background-color:rgba(228, 87, 87, 0.541);
+    background-color:rgba(255, 135, 135, 0.541);
 }
 .css-tags p{
-    border-radius: 5px;
-    padding: 0px 5px;
     background-color:rgba(228, 87, 87, 0.541);
 }
 .api-tags p{
-    border-radius: 5px;
-    padding: 0px 5px;
     background-color:rgba(87, 120, 228, 0.541);
 }
 .db-tags p{
-    border-radius: 5px;
-    padding: 0px 5px;
     background-color:rgba(0, 196, 26, 0.541);
 }
 .desc{
     opacity: 0;
     height: 60%;
     transition: 0.3s;
-    /* border: 0.1vh solid greenyellow; */
     font-size: 18px;
     text-align: center;
     position: relative;
@@ -177,8 +161,6 @@ a:active {
 
 #gibberish{
     background-image: url(./gibberishMock.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
 }
 #gibberish:hover{
     background-image:url(./grunge.jpg);
@@ -186,8 +168,6 @@ a:active {
 
 #ignition{
     background-image: url(./ignitionMock.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
 }
 #ignition:hover{
     background-image:url(./grunge.jpg);
@@ -195,8 +175,6 @@ a:active {
 
 #aboutmequiz{
     background-image: url(./aboutmeMock.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
 }
 #aboutmequiz:hover{
     background-image:url(./grunge.jpg);
@@ -204,8 +182,6 @@ a:active {
 
 #pomodoro{
     background-image: url(./pomodoroMock.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
 }
 #pomodoro:hover{
     background-image:url(./grunge.jpg);
@@ -213,8 +189,6 @@ a:active {
 
 #mcwiki{
     background-image: url(./mc-wiki.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
 }
 #mcwiki:hover{
     background-image:url(./grunge.jpg);
@@ -222,8 +196,6 @@ a:active {
 
 #neonport{
     background-image: url(./3dportMock.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
 }
 #neonport:hover{
     background-image:url(./grunge.jpg);
@@ -231,8 +203,6 @@ a:active {
 
 #airfoodie{
     background-image: url(./recipeMock.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
 }
 #airfoodie:hover{
     background-image:url(./grunge.jpg);
@@ -240,8 +210,6 @@ a:active {
 
 #aboutcard{
     background-image: url(./cardMock.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
 }
 #aboutcard:hover{
     background-image:url(./grunge.jpg);
@@ -249,8 +217,6 @@ a:active {
 
 #remindme{
     background-image: url(./remindMock.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
 }
 #remindme:hover{
     background-image:url(./grunge.jpg);
@@ -258,8 +224,6 @@ a:active {
 
 #mentalbeing{
     background-image: url(./mentalMock.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
 }
 #mentalbeing:hover{
     background-image:url(./grunge.jpg);
@@ -267,8 +231,6 @@ a:active {
 
 #budgetapp{
     background-image: url(./budgetMock.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
 }
 #budgetapp:hover{
     background-image:url(./grunge.jpg);
@@ -276,8 +238,6 @@ a:active {
 
 #workoutapp{
     background-image: url(./workoutMock.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
 }
 #workoutapp:hover{
     background-image:url(./grunge.jpg);
