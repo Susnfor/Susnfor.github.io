@@ -167,7 +167,7 @@ a:active {
 }
 
 #ignition{
-    background-image: url(./ignitionMock.png);
+    background-image: url(./ignitionMock2.png);
 }
 #ignition:hover{
     background-image:url(./grunge.jpg);
@@ -240,5 +240,12 @@ a:active {
     background-image: url(./workoutMock.png);
 }
 #workoutapp:hover{
+    background-image:url(./grunge.jpg);
+}
+
+#devran{
+    background-image: url(./devranMock.png);
+}
+#devran:hover{
     background-image:url(./grunge.jpg);
 }
