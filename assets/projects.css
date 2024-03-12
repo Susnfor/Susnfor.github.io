@@ -249,3 +249,25 @@ a:active {
 #devran:hover{
     background-image:url(./grunge.jpg);
 }
+
+#petra{
+    background-image: url(./petraMock.png);
+}
+
+#petra:hover{
+    background-image:url(./grunge.jpg);
+}
+
+#marketing-agency{
+    background-image: url(./marketingMock.png);
+}
+#marketing-agency:hover{
+    background-image:url(./grunge.jpg);
+}
+
+#tfl{
+    background-image: url(./tflMock.png);
+}
+#tfl:hover{
+    background-image:url(./grunge.jpg);
+}
