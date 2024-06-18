@@ -271,3 +271,18 @@ a:active {
 #tfl:hover{
     background-image:url(./grunge.jpg);
 }
+
+#jnb-agency{
+    background-image: url(./jnbMock.png);
+}
+#jnb-agency:hover{
+    background-image:url(./grunge.jpg);
+}
+
+#stable-prompts{
+    background-image: url(./stableMock.png);
+}
+
+#stable-prompts:hover{
+    background-image:url(./grunge.jpg);
+}
